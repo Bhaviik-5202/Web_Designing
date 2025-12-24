@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+}
+.Main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+.COLOR3 {
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.COLOR3:nth-child(1) { 
+    background: linear-gradient(45deg, #FCE38A, #F38181); 
+}
+.COLOR3:nth-child(2) { 
+    background: linear-gradient(45deg, #F54EA2, #FF7676); 
+}
+.COLOR3:nth-child(3) { 
+    background: linear-gradient(45deg, #17EAD9, #6078EA);
+}
+.COLOR3:nth-child(4) { 
+    background: linear-gradient(45deg, #622774, #C53364); 
+}
+.COLOR3:nth-child(5) { 
+    background: linear-gradient(45deg, #7117EA, #EA6060); 
+}
+
+
+.COLOR3:nth-child(6) { 
+    background: linear-gradient(45deg, #42E695, #3BB2B8); 
+}
+.COLOR3:nth-child(7) { 
+    background: linear-gradient(45deg, #F02FC2, #6094EA); 
+}
+.COLOR3:nth-child(8) { 
+    background: linear-gradient(45deg, #65799B, #5E2563); 
+}
+.COLOR3:nth-child(9) { 
+    background: linear-gradient(45deg, #184E68, #57CA85); 
+}
+.COLOR3:nth-child(10) { 
+    background: linear-gradient(45deg, #5B247A, #1BCEDF); 
+}
+
+
+.COLOR3:nth-child(11) { 
+    background: linear-gradient(45deg, #74276C, #C53364, #FDB263); 
+}
+.COLOR3:nth-child(12) { 
+    background: linear-gradient(45deg, #274B74, #8233C5, #E963FD); 
+}
+.COLOR3:nth-child(13) { 
+    background: linear-gradient(45deg, #879AF2, #D3208B, #FDA000); 
+}
+.COLOR3:nth-child(14) { 
+    background: linear-gradient(45deg, #8929AD, #436AAC, #43B78B); 
+}
+.COLOR3:nth-child(15) { 
+    background: linear-gradient(45deg, #276174, #33C5BE, #63FD88); 
+}
+
+
+.COLOR3:nth-child(16) { 
+    background: linear-gradient(45deg, #574BCD, #2999AD, #41E975); 
+}
+.COLOR3:nth-child(17) { 
+    background: linear-gradient(45deg, #363553, #903775, #E8458B); 
+}
+.COLOR3:nth-child(18) { 
+    background: linear-gradient(45deg, #5C2774, #335CC5, #637FFD);
+}
+.COLOR3:nth-child(19) { 
+    background: linear-gradient(45deg, #EA5A6F, #DE791E, #FCCF3A);
+}
+.COLOR3:nth-child(20) { 
+    background: linear-gradient(45deg, #F17B41, #E05BA2, #CD4BC9); 
+}

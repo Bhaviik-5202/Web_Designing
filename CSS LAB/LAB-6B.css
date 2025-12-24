@@ -1,0 +1,193 @@
+    .Main {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    }
+    #Header {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    }
+    .Logo {
+    height: 100px;
+    width: 300px;
+    margin-left: -20px;
+    float: left;
+    display: inline-block;
+    }
+    div a {
+    padding: 5px;
+    margin-right: 50px;
+    text-align: end;
+    float: right;
+    line-height: 5;
+    }
+    #Body {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: dashed black 1px;
+    }
+    .Sidebar1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 450px;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    }
+    .Sidebar {
+    height: 50px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 3;
+    }
+    #Image {
+    height: 450px;
+    width: 1120px;
+    display: inline-block;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    }
+    .DIVBOX {
+    height: 200px;
+    width: auto;
+    background-color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-left: -30px;
+    }
+    .Faculty {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    }
+    .Footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(49, 42, 42);
+    color: rgb(247, 247, 247);
+    text-align: center;
+    line-height: 5;
+    }
+    @media (max-width: 500px) {
+    .Navbar {
+        flex-direction: column;
+    }
+    .Sidebar1 {
+        display: none;
+    }
+    .Faculty {
+        height: 100px;
+        width: 100px;
+    }
+    .Footer {
+        font-size: small;
+        padding: 5px;
+    }
+    }
+
+/* @media (max-width: 1000px) {
+    .Main {
+        height: auto;
+        width: 100%;
+    }
+
+    #Header {
+        height: auto;
+        text-align: center;
+    }
+
+    .Logo {
+        height: 80px;
+        width: 250px;
+        margin: auto;
+        display: block;
+    }
+
+    .Navbar {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Navbar a {
+        float: none;
+        margin: 5px 0;
+    }
+
+    #Body {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Sidebar1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .Sidebar {
+        width: 100%;
+        height: auto;
+        line-height: 2.5;
+        padding: 10px 0;
+    }
+
+    #Image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .UPLine, .DOWNLine {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .DIVBOX {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .Faculty {
+        height: 120px;
+        width: 120px;
+    }
+
+    .Footer {
+        height: auto;
+        padding: 10px;
+        line-height: normal;
+    }
+}
+
+    @media (max-width: 600px) {
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Sidebar1 {
+        display: none;
+    }
+
+    .Faculty {
+        height: 100px;
+        width: 100px;
+    }
+
+    .Footer {
+        font-size: small;
+        padding: 5px;
+    }
+    } */

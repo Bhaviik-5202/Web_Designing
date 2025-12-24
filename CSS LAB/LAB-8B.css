@@ -1,0 +1,25 @@
+#Main {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(183, 255, 0, 0.945);
+}
+.Header {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+.Logo {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: red;
+}
+.Link {
+    text-align: center;
+    font-size: 10px;
+    float: inline-start;
+    margin-left: 150px;
+    transform: translate(300px, -10px);
+    line-height: 5;
+    color: aliceblue;
+}
