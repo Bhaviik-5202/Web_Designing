@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB-4 Code</title>
+    <style>
+      fieldset{
+          width: 50%;
+          margin: auto;
+          padding: 10px;
+      }
+      legend{
+          font-size: 20px;
+          font-weight: bold;
+      }
+      label{
+          font-size: 18px;
+          font-weight: bold;
+      }
+      input[type="text"],input[type="number"],input[type="date"],textarea,select{
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+      input[type="radio"]{
+          margin: 10px 0;
+      }
+      button{
+          width: 100%;
+          padding: 10px;
+          margin: 10px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          background-color: teal;
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+      }
+  </style>
+</head>
+<body>
+     
+  <h1>PART:- 1</h1>
+    <h2>Student Registration Form</h1> 
+   
+    
+  
+    <form action="/action.php">
+        <fieldset>
+            <legend>Student Form</legend>
+
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name" name="Full Name" placeholder="Enter Name"> <br><br>
+            
+
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="xyz@gmail.com"><br><br>
+
+            <label for="Mobile No.">Mobile No.:</label>
+            <input type="number" id="Mobile No." name="Mobile No." placeholder="1234567890"><br><br>
+
+            <label for="Address">Address:</label>
+            <textarea name="Address" id="Address"></textarea><br><br>
+
+            <label for="Nationality">National:</label>
+            <input type="text" id="National" name="National" placeholder="INDIA"><br><br>
+
+            <label for="Date Of Birth">Date Of Birth:</label>
+            <input type="date" id="Date Of Birth" name="Date Of Birth"><br><br>
+
+            <label for="Gender"> Gender:</label>
+            <input type="radio" id="Male" name="Male">Male
+            <input type="radio" id="Male" name="Male">FeMale<br><br>
+
+            <label for="Heigest Degree">Heigest Degree:</label>
+            <select id="Enter Degree" name="Enter Degree">
+                <option value="Degree">Select Degree</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+            </select><br><br>
+
+            <label for ="CPI">CPI:</label>
+            <input type="number" id="CPI" name="CPI" placeholder="Out OF 10"><br><br>
+
+            <label for="UNIVERSITY">UNIVERSITY:</label>
+            <select id="UNIVERSITY" name="UNIVERSITY" >
+                <option value="Select University">Select University</option>
+                <option value="Darshan University">Darshan University</option>
+                <option value="Marvadi University">Marvadi University</option>
+                <option value="Arpit University">Arpit University</option>
+            </select><br><br>
+
+            <label for="Passing year">Passing year:</label>
+            <select id="Enter year" name="Enter year">
+                <option value="Year">Select Year</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Cancle</button>
+        </fieldset>     
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <h1>PART:- 2</h1>
+   
+  <h2>COVID-19 Vaccine Registration Form</h2>
+    <form action="/action.php">
+        <fieldset>
+            <legend>COVID-19 Form</legend>
+
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name" name="Full Name" placeholder="Enter Name"><br><br>
+            
+
+            <label for="LName">Last Name</label>
+            <input type="text" id="LName" name="Last Namr" placeholder="Surname"><br><br>
+
+            <label for="Aadhar Numner">Aadhar Numner</label>
+            <input type="number" id="Aadhar Numner" name="Aadhar Numner" placeholder="1234567890"><br><br>
+
+            <label for="Address">Address:</label>
+            <textarea name="Address" id="Address"></textarea><br><br>
+
+            <label for="Vaccine Name">Vaccine Name:</label>
+            <input type="text" id="Vaccine Name" name="Vaccine Name" placeholder="Covaxin"><br><br>
+
+            <label for="Vaccine Dose">Vaccine Dose:</label>
+            <input type="number" id="Vaccine Dose" name="Vaccine Dose" placeholder="1st Dose"><br><br>
+
+            <label for="Date Of Dose">Date Of Dose:</label>
+            <input type="date" id="Date Of Dose" name="Date Of Dose"><br><br>
+
+            <label for="Dose Numner">Dose Number:</label>
+            <input type="radio" id="1st Dose" name="1st Dose">1st Dose
+            <input type="radio" id="2nd Dose" name="2nd Dose">2nd Dose<br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Cancle</button>
+        </fieldset>
+    </form>
+    <br><br><br>
+
+  <h2>Employee Registration</h2>
+  <form action="/action.php">
+    <fieldset>
+        <h4><legend>Personal Information</legend></h4>
+
+        <label for="Full Name">Full Name:</label>
+        <input type="text" id="Full Name" name="Full Name" placeholder="Enter Name">
+        
+        <label for="ID">ID:</label>
+        <input type="number" id="ID" name="ID" placeholder="24010******"><br><br>
+
+
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" placeholder="Enter Email">
+
+        <label for="Mobile No.">Mobile No.:</label>
+        <input type="number" id="Mobile No." name="Mobile No." placeholder="1234567890"><br><br>
+
+        <label for="Marital Status">Marital Status:</label>
+        <input type="radio" id="Married" name="Married">Married
+        <input type="radio" id="Unmarried" name="Unmarried">Unmarried<br><br>
+        
+
+      <h4><legend style="text-align: justify;">Education Qualification</legend></h4>
+
+      <label for="Education">Education:</label>
+      <input type="text" id="Education" name="Education" placeholder="Enter Education Details">
+
+      <label for="Experience">Experience:</label>
+      <input type="number" id="Experience" name="Experience" placeholder="Enter Experience Details"><br><br>  
+
+      <h4><legend>Job Location</legend></h4>
+      <label for="Designation">Designation:</label>
+      <input type="text" id="Designation" name="Designation" placeholder="Enter Designation Details">
+
+      <label for="Job Location">Job Location:</label>
+      <input type="text" id="Job Location" name="Job Location" placeholder="Enter Job Location Details"><br><br>
+
+      <label for="Salary">Salary:</label>
+      <input type="number" id="Salary" name="Salary" placeholder="Enter Salary Details"><br><br>
+
+      <button type="submit">Register</button>
+      <button type="reset">Cancle</button>
+
+    </fieldset>
+  </form>
+
+  <h1>PART: 3</h1>
+  
+  <form action="/action.php" 
+    style ="border: 5px; 
+    border-color: rgb(234, 241, 14); 
+    border-style: solid; 
+    border-width: 15px;
+    color: #327da8;
+    text-decoration: solid;
+    font-weight: 1200;
+    border-color: red yellow green hsla(238, 100%, 50%, 0.8);"> <!--!Google Color-->
+    <fieldset>
+       
+      <h2 style=" text-align: center"><b>Creat Acconut</b></b></h2>
+        <label for="Full Name" >Full Name *</label>
+        <input 
+          type="text" 
+          id="Full Name" 
+          name="Full Name" 
+          placeholder="Enter Your First Name"
+          >
+        
+        <label for="LName">Last Name *</label>
+        <input 
+          type="text" 
+          id="LName" 
+          name="Last Namr" 
+          placeholder="Enter Your Last Name">
+          <br><br>
+
+        <label for="Email">Email: <br></label>
+        <input 
+          type="text" 
+          id="Email" 
+          name="Email" 
+          placeholder="xyz@gmail.com"
+          width="1000px">
+          <br><br>
+
+        <label for="Password">Password:</label>
+        <input 
+          type="password" 
+          id="Password" 
+          name="Password" 
+          placeholder="Enter Password">
+
+        <label for="Confirm Password">Confirm Password:</label>
+        <input 
+          type="password" 
+          id="Confirm Password" 
+          name="Confirm Password" 
+          placeholder="Enter Confirm Password">
+          <br><br>
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="FeMale">FeMale
+        <input type="radio" id="Male">Male  <br><br>
+
+        <style text-align="justify"></style>
+        <label for="Hobbies">Hobbies:</label>
+        <input type="checkbox" id="Music">Music
+        <input type="checkbox" id="Movies">Movies
+        <input type="checkbox" id="Sports">Sports
+        <input type="checkbox" id="Travel">Travel
+        <input type="checkbox" id="Gaming">Gaming <br><br>
+
+        <label for="Source OF Income">Source OF Income:</label>
+        <select 
+          id="Source OF Income" 
+          name="Source OF Income">
+            <option value="Select Source">Select Source</option>
+            <option value="Job">Job</option>
+            <option value="Business">Business</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="Income">Income:</label>
+        <input 
+          type="range" 
+          id="Income" 
+          name="Income"
+          start="0" 
+          min="0" 
+          max="20K"
+          step="5K"><br><br>
+
+        <label for="Upload Your Image">Upload Your Image:</label>
+        <input 
+          type="file" 
+          id="Upload Your Image" 
+          name="Upload Your Image"><br><br>
+
+        <label 
+        for="Age">Age:</label>
+        <input 
+        type="number"
+        id="Age"
+        name="Age"
+        placeholder="Enter Your Age"><br><br>
+
+        <label for="Bio">Bio</label>
+        <textarea 
+        name="Bio" 
+        id="Bio"></textarea><br><br>
+
+        <button 
+          type="submit"
+          style ="background-color: #00e3f8;
+                  color: black;
+                  font-size: 20px;
+                  font-weight: bold;
+                  border: 1px solid #ccc;">
+        Creat</button>
+
+        <button 
+          type="reset"
+          style ="color: rgb(252, 252, 252);
+                  background-color: #080808;
+                  font-size: 20px;
+                  font-weight: bold;
+                  border: 1px solid #ccc;">
+        Cancle</button>
+
+    </fieldset>
+  </form>
+
+  <br><br><br>
+
+</body>
+</html>
