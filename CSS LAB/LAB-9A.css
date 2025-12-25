@@ -1,0 +1,53 @@
+.Movement {
+    transform: translate(200px, 200px);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    animation: Movement 5s infinite reverse ease-in-out;
+}
+@keyframes Movement {
+    0% { 
+        left: 0; 
+        top: 0; 
+        background-color: red; 
+    }
+    25% {
+        left: 300px; 
+        top: 0; 
+        background-color: yellow; 
+    }  
+    50% {
+        left: 300px; 
+        top: 300px; 
+        background-color: red; 
+    } 
+    75% {
+        left: 0; 
+        top: 300px; 
+        background-color: yellow; 
+    }
+    100% {
+        left: 0; 
+        top: 0; 
+        background-color: red; 
+    }
+}
+
+@keyframes Color {
+    from { 
+        background-color: black; 
+    }
+    to { 
+        background-color: teal;
+    }       
+}
+.Color {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    animation: Color 5s infinite;
+    animation-delay: 2s;
+    transform: translate(350px,350px);
+}

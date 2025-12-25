@@ -1,0 +1,64 @@
+div {
+    background-color: aqua;
+    padding: 50px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:link {
+    color: orange; /* Before visited */
+}
+a:visited {
+    color: red; /* After visited */
+}
+a:hover {
+    transition: .3s ease-in-out;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+a:selection {
+    background-color: brown;
+}
+p {
+    font-size: 20px;
+    text-indent: 5%;
+    color: black;
+    background-color: white;
+}
+.Paragraph {
+    height: 5%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.Effect:hover {
+    /* color: black; */
+    font-size: 25px;
+    transition: .3s ease-in-out;
+    background-color: yellow;
+    color: aliceblue;
+}
+.Effect::first-line {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Effect::first-letter {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Effect::selection {
+    background-color: rgb(6, 234, 82);
+    color: black;
+}
+label select option:hover {
+    height: 20px;
+    width: 25px;
+    transition: .3s ease-in-out;
+}
